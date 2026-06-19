@@ -1,6 +1,6 @@
 # MyContacts 📱
 
-A clean and simple contacts app built with Flutter.
+A production-grade contacts management application built with Flutter, demonstrating modern mobile development practices with cloud backend integration and reactive state management.
 
 ## Features
 - Add, edit, and delete contacts
@@ -24,8 +24,13 @@ A clean and simple contacts app built with Flutter.
 - Repository pattern for data access
 - Single source of truth via ContactBloc
 
-## Screenshots
-(add your screenshots here)
+Presentation Layer (UI)
+         ↓
+    BLoC Layer (Business Logic)
+         ↓
+  Repository Layer (Data Access)
+         ↓
+Data Layer (Firebase, SQLite)
 
 ## APK Download
 https://drive.google.com/drive/folders/1m7CXOSs_xfvw4zSE-ZRm9k9afnA77bQ5?usp=sharing
